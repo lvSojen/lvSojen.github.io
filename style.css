@@ -1,3 +1,8 @@
+@font-face {
+    font-family: beautyCN;
+    src: url(fonts/beautyCN.ttf);
+}
+
 div {
     text-align: center;
     font-weight: bold;
@@ -5,5 +10,18 @@ div {
 }
 
 a {
-    color: purple;
+    color: blueviolet;
 }
+
+a:hover {
+    color: hotpink;
+}
+
+a:link { 
+    text-decoration: none; 
+}
+
+body {
+    font-family: beautyCN;
+}
+
