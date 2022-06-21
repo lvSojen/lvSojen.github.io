@@ -7,6 +7,7 @@ div {
     text-align: center;
     font-weight: bold;
     font-size: x-large;
+    color:white;
 }
 
 a {
@@ -23,5 +24,9 @@ a:link {
 
 body {
     font-family: beautyCN;
+    background-image: green;
+    background-image: url(background-img/img.jpg)!important;
+    background-size:cover;
+    background-color:#000000;
 }
 
