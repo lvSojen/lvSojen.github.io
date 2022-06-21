@@ -86,8 +86,8 @@ a:link {
 
 body {
     font-family: beautyCN;
-    background-image: url(img/img.jpg)!important;
+    background-image: url(img/img.jpg);
     background-size: cover;
     background-color: #000000;
-    animation: breath 10s linear infinite;
+    animation: breath 15s linear infinite;
 }
