@@ -2,30 +2,92 @@
     font-family: beautyCN;
     src: url(fonts/beautyCN.ttf);
 }
+@keyframes breath {
+    /* +6.25%,+0.125% */
+    0% {
+      background-size: 100% auto;
+    }
+    6.25% {
+      background-size: 100.125% auto;
+    }
+  
+    12.5% {
+      background-size: 100.25% auto;
+    }
+    18.75% {
+      background-size: 100.375% auto;
+    }
+  
+    25% {
+      background-size: 100.5% auto;
+    }
+    31.25% {
+      background-size: 100.625% auto;
+    }
+  
+    37.5% {
+      background-size: 100.75% auto;
+    }
+    43.75% {
+      background-size: 100.875% auto;
+    }
+  
+    50% {
+      background-size: 101% auto;
+    }
+    56.25% {
+      background-size: 100.875% auto;
+    }
+  
+    62.5% {
+      background-size: 100.75% auto;
+    }
+    68.75% {
+      background-size: 100.625% auto;
+    }
+  
+    75% {
+      background-size: 100.5% auto;
+    }
+    81.25% {
+      background-size: 100.375% auto;
+    }
+  
+    87.5% {
+      background-size: 100.25% auto;
+    }
+    93.75% {
+      background-size: 100.125% auto;
+    }
+  
+    100% {
+      background-size: 100% auto;
+    }
+}
 
 div {
     text-align: center;
     font-weight: bold;
     font-size: x-large;
-    color:white;
+    color: white;
 }
 
 a {
     color: blueviolet;
 }
-
+  
 a:hover {
     color: hotpink;
 }
-
-a:link { 
-    text-decoration: none; 
+  
+a:link {
+    text-decoration: none;
 }
 
 body {
     font-family: beautyCN;
-    background-image: url(img/img.jpg);
-    background-size:cover;
-    background-color:#000000;
+    background-image: url(img/img.jpg)!important;
+    background-size: cover;
+    background-color: #000000;
+    animation: breath 10s linear infinite;
 }
-
