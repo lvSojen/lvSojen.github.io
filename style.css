@@ -65,6 +65,24 @@
     }
 }
 
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.previous, .next{
+  text-decoration: none;
+  display: inline-block;
+  padding: 3px 3px;
+  border-radius: 9px;
+  margin-top: 8px;
+}
+
 div {
     text-align: center;
     font-weight: bold;
@@ -92,10 +110,3 @@ body {
     animation: breath 15s linear infinite;
 }
 
-.previous, .next{
-  text-decoration: none;
-  display: inline-block;
-  padding: 3px 3px;
-  border-radius: 9px;
-  margin-top: 8px;
-}
