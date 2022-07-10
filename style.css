@@ -73,7 +73,10 @@
 .next {
   background-color: #04AA6D;
   color: white;
-  text-decoration: none;
+}
+
+.previous, .next {
+  border: 4px;
   display: inline-block;
   padding: 3px 3px;
   border-radius: 9px;
