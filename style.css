@@ -112,7 +112,7 @@ a:link {
 
 body {
     font-family: beautyCN;
-    background-image: url(img/img.jpg);
+    background: url(img/img.jpg) no-repeat;
     background-size: cover;
     background-color: #000000;
     animation: breath 15s linear infinite;
