@@ -1,5 +1,5 @@
 const music = new Audio("./music/Github Skyline.mp3");
-if(!music) {
+if(isNaN(sound.duration)) {
   music = new Audio("../music/Github Skyline.mp3");
 }
 music.play();
