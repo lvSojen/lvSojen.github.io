@@ -114,6 +114,7 @@ body {
     font-family: beautyCN;
     background: url(img/img.jpg) no-repeat;
     background-size: cover;
+    height: 100%; 
     background-color: #000000;
     animation: breath 15s linear infinite;
 }
